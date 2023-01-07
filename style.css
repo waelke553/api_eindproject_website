@@ -1,0 +1,108 @@
+.titel {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+    
+}
+.vet {
+    font-size: 16px !important;
+    font-weight: bold;
+    color: red;
+}
+
+.text > span {
+    font-size: 8px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.api-1, .api-2, .api-3, .api-4, .api-5, .api-6{
+    border: 3px solid grey;
+    /* display: flex;
+    flex-direction: row; */
+    width: 30%;
+    border-radius: 3%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.api-forem, .api-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.api-forem > label {
+    width: 30%;
+}
+
+
+
+.api-button {
+    margin-top: 20px;
+}
+
+.container > h2, h3 {
+    text-align: center;
+    border-top: 3px solid black;
+}
+
+.api-titel {
+    text-align: center;
+}
+
+.api-comment {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.api-link {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#url_api_1, #url_api_2, #url_api_3, #url_api_4, #url_api_5, #url_api_6{
+    overflow: auto;
+}
+
+.api-1-reply, .api-2-reply, .api-3-reply, .api-4-reply, .api-5-reply, .api-6-reply {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.response-api-1-user, .response-api-1-website, .response-api-2-user, .response-api-2-website, .response-api-3-user, .response-api-4-user, .response-api-5-user, .response-api-5-website, .response-api-6-user, .response-api-6-website {
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.response-api-1-password, .response-api-2-password, .response-api-3-website, .response-api-4-website, .response-api-5-password, .response-api-6-password {
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.response-api-error {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.api-forem-section {
+    min-height: 150px;
+}
